@@ -2,7 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bfbefd90-eee2-42f7-b908-0d7082ab9088" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SentimentAnalysis.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/XlsxWriter-1.2.8.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/XlsxWriter-1.2.8.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/XlsxWriter-1.2.8.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/XlsxWriter-1.2.8.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/XlsxWriter-1.2.8.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chart.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chart_area.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chart_bar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chart_column.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chart_doughnut.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chart_line.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chart_pie.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chart_radar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chart_scatter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chart_stock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/chartsheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/comments.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/compatibility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/contenttypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/core.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/custom.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/drawing.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/exceptions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/format.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/packager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/relationships.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/shape.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/sharedstrings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/styles.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/table.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/theme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/utility.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/vml.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/workbook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/worksheet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/xlsxwriter/xmlwriter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Scripts/vba_extract.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -22,13 +61,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ai8Xu0fmxqDHPKfVnV0Q5VeLxI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -73,36 +115,60 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587207096268</updated>
-      <workItem from="1587207104665" duration="7961000" />
+      <workItem from="1587207104665" duration="10985000" />
     </task>
+    <task id="LOCAL-00001" summary="seperated the actual_results, predictions and tweet sentences">
+      <created>1587215412978</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587215412978</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="seperated the actual_results, predictions and tweet sentences" />
+    <option name="LAST_COMMIT_MESSAGE" value="seperated the actual_results, predictions and tweet sentences" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587215317154">
+    <state x="308" y="0" key="CommitChangelistDialog2" timestamp="1587215412427">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587215317154" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587215317154">
+    <state x="308" y="0" key="CommitChangelistDialog2/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587215412427" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587218754480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587215317154" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587215317154">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587218754480" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587218754480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587215317154" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587215317154">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587218754480" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587218754480">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587215317154" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587218754480" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587218754480">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587218754480" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587215426252">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587215426252" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1587215144716">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587215144716" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sentimentalAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1587215317148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sentimentalAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1587218754474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
