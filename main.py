@@ -5,21 +5,20 @@ import random
 import re
 import string
 
-from nltk import FreqDist, classify, NaiveBayesClassifier
+from nltk import classify, NaiveBayesClassifier
 from nltk.corpus import twitter_samples, stopwords
 from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.tag import pos_tag
-from nltk.tokenize import word_tokenize
 
 
 def remove_noise(tweet_tokens, stop_words=()):
     cleaned_tokens = []
-
+    # removed all the hyperlinks in the tweets
     for token, tag in pos_tag(tweet_tokens):
         token = re.sub('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+#]|[!*\(\),]|'
                        '(?:%[0-9a-fA-F][0-9a-fA-F]))+', '', token)
         token = re.sub("(@[A-Za-z0-9_]+)", "", token)
-
+        # In tagging when a string is noun NN as Tag then it will be 'n', if verb then 'v' and if no one 'a'
         if tag.startswith("NN"):
             pos = 'n'
         elif tag.startswith('VB'):
@@ -35,15 +34,19 @@ def remove_noise(tweet_tokens, stop_words=()):
     return cleaned_tokens
 
 
-# def get_all_words(cleaned_tokens_list):
-#     for tokens in cleaned_tokens_list:
-#         for token in tokens:
-#             yield token
-
-
 def get_tweets_for_model(cleaned_tokens_list):
+    # converted to dictionary data type
     for tweet_tokens in cleaned_tokens_list:
         yield dict([token, True] for token in tweet_tokens)
+
+
+def get_predicted_results(classifier, test_data):
+    predicted_results = []
+    for tdata in test_data:
+        for tweet in tdata:
+            prediction = classifier.classify(dict([token, True] for token in tweet))
+            predicted_results.append(prediction)
+    return predicted_results
 
 
 # downloaded the twitter dataset
@@ -67,11 +70,6 @@ for tokens in positive_tweet_tokens:
 for tokens in negative_tweet_tokens:
     negative_cleaned_tokens_list.append(remove_noise(tokens, stop_words))
 
-# all_pos_words = get_all_words(positive_cleaned_tokens_list)
-#
-# freq_dist_pos = FreqDist(all_pos_words)
-# print(freq_dist_pos.most_common(10))
-
 # converted the words in datatype of dictionary as required for the classifier
 positive_tokens_for_model = get_tweets_for_model(positive_cleaned_tokens_list)
 negative_tokens_for_model = get_tweets_for_model(negative_cleaned_tokens_list)
@@ -93,13 +91,18 @@ train_data = dataset[:7000]
 test_data = dataset[7000:]
 # used the NaiveBayes classifier and trained it with training set
 classifier = NaiveBayesClassifier.train(train_data)
+accuracy = classify.accuracy(classifier, test_data)
+print("Accuracy is:", accuracy)
+predicted_results = get_predicted_results(classifier, test_data)
+print("Predicted results", predicted_results)
+tweets = []
+actual_test_results = []
+for tweet in test_data:
+    tweet_sentence = ' '.join([word for word in tweet[0]])
+    tweets.append(tweet_sentence)
+    actual_test_results.append(tweet[1])
 
-print("Accuracy is:", classify.accuracy(classifier, test_data))
-
-# print(classifier.show_most_informative_features(10))
 # Custom testing example
-custom_tweet = "I ordered just once from Subway, they screwed up, never used the app again."
-
-custom_tokens = remove_noise(word_tokenize(custom_tweet))
-
-print(custom_tweet, classifier.classify(dict([token, True] for token in custom_tokens)))
+# custom_tweet = "I ordered just once from Subway, they screwed up, never used the app again."
+# custom_tokens = remove_noise(word_tokenize(custom_tweet))
+# print(custom_tweet, classifier.classify(dict([token, True] for token in custom_tokens)))
