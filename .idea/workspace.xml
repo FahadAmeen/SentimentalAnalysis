@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfbefd90-eee2-42f7-b908-0d7082ab9088" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sentimentalAnalysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sentimentalAnalysis.iml" afterDir="false" />
+    <list default="true" id="bfbefd90-eee2-42f7-b908-0d7082ab9088" name="Default Changelist" comment="downloaded the nltk packages">
+      <change afterPath="$PROJECT_DIR$/negative_tweets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/positive_tweets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SentimentAnalysis.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/SentimentAnalysis.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SentimentAnalysis.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ai8Xu0fmxqDHPKfVnV0Q5VeLxI" />
@@ -80,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587207096268</updated>
       <workItem from="1587207104665" duration="11799000" />
-      <workItem from="1587619332944" duration="896000" />
+      <workItem from="1587619332944" duration="4101000" />
     </task>
     <task id="LOCAL-00001" summary="seperated the actual_results, predictions and tweet sentences">
       <created>1587215412978</created>
@@ -96,18 +119,37 @@
       <option name="project" value="LOCAL" />
       <updated>1587218884352</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="downloaded the nltk packages">
+      <created>1587620255120</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587620255121</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="seperated the actual_results, predictions and tweet sentences" />
     <MESSAGE value="write in excel file" />
-    <option name="LAST_COMMIT_MESSAGE" value="write in excel file" />
+    <MESSAGE value="downloaded the nltk packages" />
+    <option name="LAST_COMMIT_MESSAGE" value="downloaded the nltk packages" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -119,25 +161,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="162" y="120" key="FileChooserDialogImpl/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587619645595" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587620180726">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1587623383491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587620180726" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587623383491" />
     <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587219674055" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587620180725">
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1587623383491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587620180725" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587623383491" />
     <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587219674055" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587620180725">
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1587623383491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587620180725" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587623383491" />
     <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587219674055" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587620180726">
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1587623383491">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587620180726" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587623383491" />
     <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587219674055" />
     <state x="464" y="75" key="RollbackChangesDialog" timestamp="1587219664875">
       <screen x="0" y="0" width="1366" height="728" />
@@ -147,9 +189,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="182" y="0" key="SettingsEditor/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587619685107" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587218891663">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1587620270586">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-174.1920.1040@0.0.1366.728" timestamp="1587620270586" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587218891663" />
     <state x="346" y="49" key="search.everywhere.popup" timestamp="1587215144716">
       <screen x="0" y="0" width="1366" height="728" />
@@ -157,6 +200,6 @@
     <state x="346" y="49" key="search.everywhere.popup/0.0.1366.728/-1920.-199.1920.1040@0.0.1366.728" timestamp="1587215144716" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sentimentalAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1587620180714" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/sentimentalAnalysis$main.coverage" NAME="main Coverage Results" MODIFIED="1587623383484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
