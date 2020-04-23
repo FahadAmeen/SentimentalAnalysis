@@ -2,9 +2,9 @@ import nltk
 import json
 
 
-def get_tweets_for_model(cleaned_tokens_list):
+def get_tweets_for_model(tokens_list):
     # converted to dictionary data type
-    for tweet_tokens in cleaned_tokens_list:
+    for tweet_tokens in tokens_list:
         yield dict([token, True] for token in tweet_tokens)
 
 
