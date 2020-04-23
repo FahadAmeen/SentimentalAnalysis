@@ -1,6 +1,10 @@
-# import nltk
-# nltk.download('twitter_samples')
-# nltk.download('punkt')
+import nltk
+
+nltk.download('wordnet')
+nltk.download('averaged_perceptron_tagger')
+nltk.download('stopwords')
+nltk.download('twitter_samples')
+nltk.download('punkt')
 import random
 import re
 import string
